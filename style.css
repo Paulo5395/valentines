@@ -1,1 +1,44 @@
+body {
+    background-color: #ffd4fe;
+    text-align: center;
+}
 
+div {
+    width: 50%;
+    background-color: #ffe3ff;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+p {
+    font-size: 10px;
+}
+
+img {
+    width: 25%;
+    margin: auto;
+}
+
+#buffer {
+    background-color: #ffd4fe;
+    width: 100%;
+    height: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 3px solid red;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
